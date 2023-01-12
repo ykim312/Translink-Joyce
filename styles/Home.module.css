@@ -3,8 +3,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
 }
 
 .description {
@@ -275,4 +273,32 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.map {
+  width: 100%;
+  height: 40rem;
+  margin: 50px;
+}
+
+.header {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: azure;
+  box-shadow: 5px 0px 30px azure;
+}
+
+.footer {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+  box-shadow: 5px 0px 30px azure;
+  flex-direction: column;
 }
